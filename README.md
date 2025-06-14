@@ -4,7 +4,6 @@
 [![Vercel](https://img.shields.io/badge/Deploy-Vercel-black?logo=vercel)](https://vercel.com/)
 [![Voice AI](https://img.shields.io/badge/Voice_AI-Vapi-purple)](https://vapi.ai/)
 [![LLM](https://img.shields.io/badge/LLM-Gemini-blueviolet)](https://deepmind.google/technologies/gemini/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 > **SweatSmart** is your AI-powered fitness companion that builds personalized workout and diet plans using conversational intelligence. With voice integration, real-time syncing, and responsive design—SweatSmart brings smart training to everyone, everywhere.
 
@@ -45,21 +44,3 @@ git clone https://github.com/your-username/sweatsmart.git
 cd sweatsmart
 npm install
 npm run dev
-🔗 Visit: http://localhost:3000
-
-🔐 Authentication
-SweatSmart uses Clerk to support:
-
-🔑 Google Sign-in
-
-🔑 GitHub Sign-in
-
-📧 Email authentication
-
-🔒 Role-based access for personalized plans
-
-🧠 AI & Voice Integration
-🤖 Gemini AI generates intelligent plans based on user goals and responses.
-
-🎤 Vapi Voice AI enables real-time conversational interaction with your virtual fitness assistant.
-
