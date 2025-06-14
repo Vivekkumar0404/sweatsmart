@@ -1,37 +1,65 @@
-# 🎟️ SeatSmart – Smart, Smooth, Seamless Seating
+# 🏋️‍♂️ SweatSmart – AI Fitness, Powered by Voice
 
-[![Next.js](https://img.shields.io/badge/Next.js-14.0-blue?logo=next.js)](https://nextjs.org/)
-[![Vercel](https://img.shields.io/badge/Deploy-Vercel-000?logo=vercel)](https://vercel.com/new)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Active-brightgreen)](https://github.com/Vivekkumar0404/seatsmart)
+[![Next.js](https://img.shields.io/badge/Framework-Next.js-blue?logo=next.js)](https://nextjs.org/)
+[![Vercel](https://img.shields.io/badge/Deploy-Vercel-black?logo=vercel)](https://vercel.com/)
+[![Voice AI](https://img.shields.io/badge/Voice_AI-Vapi-purple)](https://vapi.ai/)
+[![LLM](https://img.shields.io/badge/LLM-Gemini-blueviolet)](https://deepmind.google/technologies/gemini/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-> **SeatSmart** is a smart, efficient seat booking and reservation system built with ⚡️ **Next.js**. Perfect for events, theaters, classrooms, or transportation — SeatSmart ensures users get the seat they want with ease.
-
----
-
-## 🧩 Features
-
-✅ **Modern UI** – Clean, responsive design powered by Tailwind and Next.js  
-✅ **Real-Time Updates** – Automatically reflects seat availability status  
-✅ **Optimized Font Loading** – Uses `next/font` with [Geist](https://vercel.com/font)  
-✅ **Developer Friendly** – Hot reload, modular file structure, customizable  
-✅ **Vercel Ready** – One-click deployment support
+> **SweatSmart** is your AI-powered fitness companion that builds personalized workout and diet plans using conversational intelligence. With voice integration, real-time syncing, and responsive design—SweatSmart brings smart training to everyone, everywhere.
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Features
 
-To run the project locally, follow these steps:
+🎯 Personalized fitness and diet plans using Gemini AI (LLM)  
+🎙️ Real-time conversational coaching with Vapi Voice AI  
+🔒 Secure sign-in with Clerk (Google, GitHub, Email)  
+📡 Real-time database and state sync using Convex  
+🧠 Smart recommendations based on user preferences & goals  
+🖥️ Responsive UI with modern design  
+🧑‍💼 Role-based access and progress tracking  
+📲 Mobile-first experience with fast load times  
+🚀 Deployed with Vercel
+
+---
+
+## 🛠 Tech Stack
+
+| Tech              | Description                          |
+|------------------|--------------------------------------|
+| Next.js 14        | React Framework for SSR              |
+| Gemini AI         | LLM for personalized recommendations |
+| Vapi              | Voice AI for real-time coaching      |
+| Clerk             | Authentication & authorization       |
+| Convex            | Real-time database & serverless API  |
+| Tailwind CSS      | Modern utility-first styling         |
+| Vercel            | Deployment & CI/CD                   |
+
+---
+
+## 💡 Getting Started
 
 ```bash
-# Install dependencies
+git clone https://github.com/your-username/sweatsmart.git
+cd sweatsmart
 npm install
-
-# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+🔗 Visit: http://localhost:3000
+
+🔐 Authentication
+SweatSmart uses Clerk to support:
+
+🔑 Google Sign-in
+
+🔑 GitHub Sign-in
+
+📧 Email authentication
+
+🔒 Role-based access for personalized plans
+
+🧠 AI & Voice Integration
+🤖 Gemini AI generates intelligent plans based on user goals and responses.
+
+🎤 Vapi Voice AI enables real-time conversational interaction with your virtual fitness assistant.
+
